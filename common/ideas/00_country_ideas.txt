@@ -29,12 +29,12 @@ FRA_ideas = {
 	}
 	lessons_hundred_years_war = {
 		naval_morale = 0.10
-	}
-	estates_general = {
-		land_morale = 0.20
 		naval_forcelimit_modifier = 0.25
 		naval_maintenance_modifier = -0.10
+	}
+	estates_general = {
 		colonists = 1
+		land_morale = 0.20
 	}
 	native_trading_principles = {
 		native_uprising_chance = -0.5
@@ -42,15 +42,14 @@ FRA_ideas = {
 		range = 0.25
 	}
 	divine_right_to_rule = {
-		fort_maintenance_modifier = -0.2
+		infantry_power = 0.10
 	}
 	europes_first_standing_army = {
 		technology_cost = -0.1
 		land_forcelimit_modifier = 0.10
 	}
 	vauban_fortifications = {
-		infantry_cost = -0.10
-		infantry_power = 0.10
+		fort_maintenance_modifier = -0.2
 	}
 }
 
